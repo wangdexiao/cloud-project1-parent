@@ -1,0 +1,17 @@
+server:
+  port: 8082
+
+
+#mysql
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  datasource:
+    password: Wdx123123123.
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.9.139.63:3306/user_db
